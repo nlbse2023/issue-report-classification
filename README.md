@@ -61,12 +61,28 @@ The submission with the highest F1 score will be the winner of the competition.
 
 Since you will be using our dataset (and possibly one of our notebooks) as well as the original work behind the dataset, please cite the following references in your paper:
 
+> TODO
+
 ```
-@inproceedings{nlbse-issues2023,
-  author={Kallis, Rafael and Izadi, Maliheh and Di Sorbo, Andrea and Panichella, Sebastiano},
-  title={NLBSE'23 Tool Competition on Issue Classification},
+@inproceedings{nlbse2023,
+  author={},
+  title={NLBSE'23 Tool Competition},
   booktitle={Proceedings of The 2nd International Workshop on Natural Language-based Software Engineering (NLBSE'23)},
   year={2023}
+}
+```
+
+```
+@article{ticket-tagger-scp,
+  author={Rafael Kallis and Andrea {Di Sorbo} and Gerardo Canfora and Sebastiano Panichella}
+  title={Predicting issue types on GitHub},
+  journal={Science of Computer Programming},
+  volume={205},
+  pages={102598},
+  year={2021},
+  issn={0167-6423},
+  doi={https://doi.org/10.1016/j.scico.2020.102598},
+  url={https://www.sciencedirect.com/science/article/pii/S0167642320302069}
 }
 ```
 
