@@ -4,7 +4,7 @@
 
 This NLBSE tool competition is on automatic issue report classification, an important task in issue management and prioritization.
 
-For the competition, we provide a dataset encompassing more than TODO 800k labeled issue reports (as bugs, features, questions and documentation) extracted from real open-source projects. You are invited to leverage this dataset for evaluating your classification approaches and compare the achieved results against a two proposed baseline approaches based on FastText and RoBERTa.
+For the competition, we provide a dataset encompassing more than 1.2M labeled issue reports (as bugs, features, questions and documentation) extracted from real open-source projects. You are invited to leverage this dataset for evaluating your classification approaches and compare the achieved results against a two proposed baseline approaches based on FastText and RoBERTa.
 
 ## Participation
 
@@ -35,7 +35,7 @@ All dates are anywhere on earth (AoE).
 ## Updates
 
 - Dataset size increased from 800k to 1.2M issue reports
-- Added a new label "documentation" to the dataset
+- Added a new label `documentation` to the dataset
 - Added synonyms of labels to the dataset
 - Multi-label issues are now excluded from the dataset
 - Non-english issues are now excluded from the dataset
@@ -85,7 +85,7 @@ Each issue report is labeled with one of the following labels:
 - Body
 - Author association
 
-Each issue is labeled with one class that indicates the issue type, namely, bug, feature, question and documentation.
+Each issue is labeled with one class that indicates the issue type, namely, `bug`, `feature`, `question` and `documentation`.
 
 Each issue appears exactly once and has exactly one label.
 
