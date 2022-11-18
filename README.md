@@ -1,3 +1,5 @@
+![nlbse 2023](nlbse2023.png)
+
 # NLBSE'23 Tool Competition on Issue Classification
 
 ## Introduction
