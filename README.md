@@ -90,9 +90,7 @@ Since you will be using our dataset (and possibly one of our notebooks) as well 
 
 You are provided a [training set](https://tickettagger.blob.core.windows.net/datasets/nlbse23-issue-classification-train.csv.tar.gz) encompassing more than 1.2 million labeled issue reports extracted from real open source projects.
 
-Participants are free to select and transform variables from the training set as they please. Pretrained models are permitted but can only be finetuned on the given training set. Any inputs or features used to create or finetune the classifier, must be derived from the provided training set. Participants may preprocess, sample, apply over/under-sampling, select a subset of the attributes, perform feature-engineering, filter records, split the training set into a model-finetuning validation set, etc. 
-
-> Please contact us if you have any question about this.
+Participants are free to select and transform variables from the training set as they please. Pretrained models are permitted but can only be finetuned on the given training set. Any inputs or features used to create or finetune the classifier, must be derived from the provided training set. Participants may preprocess, sample, apply over/under-sampling, select a subset of the attributes, perform feature-engineering, filter records, split the training set into a model-finetuning validation set, etc. Please contact us if you have any question about this.
 
 Each issue report is labeled with one of the following labels:
 - Label
@@ -139,9 +137,7 @@ Please note that whilst all of the above measures must be provided for acceptanc
 
 ## Templates
 
-## Submission Template 1: FastText
+Participants are encouraged, but not required, to use one of our templates for their submission. Each template downloads the dataset, performs basic preprocessing, trains a classifier and evaluates it on the test set.
 
-Participants are encouraged, but not required, to use one of our templates for their submission. Each template downloads the dataset, performs basic preprocessing, trains a classifier and evaluates it on the evaluation set.
-
-- [FastText]()
-- [RoBERTA]()
+- [fastText](2-Template-fastText.ipynb)
+- [RoBERTa](3-Template-RoBERTa.ipynb)
