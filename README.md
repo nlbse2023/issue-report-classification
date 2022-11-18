@@ -4,21 +4,21 @@
 
 This NLBSE tool competition is on automatic issue report classification, an important task in issue management and prioritization.
 
-For the competition, we provide a dataset encompassing more than 1.2M labeled issue reports (as bugs, features, questions and documentation) extracted from real open-source projects. You are invited to leverage this dataset for evaluating your classification approaches and compare the achieved results against a two proposed baseline approaches based on FastText and RoBERTa.
+For the competition, we provide a dataset encompassing more than 1.4M labeled issue reports (as bugs, features, questions and documentation) extracted from real open-source projects. You are invited to leverage this dataset for evaluating your classification approaches and compare the achieved results against a two proposed baseline approaches based on FastText and RoBERTa.
 
 ## Participation
 
 If you want to participate, you must:
 
-- Train and tune a multiclass classifier using the provided training set. The classifier should assign one label to an issue.
-- Evaluate your classifier on the provided test set
-- Write a paper (4 pages max.) describing:
+- Train and tune a multiclass classifier using the provided [training set](https://tickettagger.blob.core.windows.net/datasets/nlbse23-issue-classification-train.csv.tar.gz). The classifier should assign one label to an issue.
+- Evaluate your classifier on the provided [test set](https://tickettagger.blob.core.windows.net/datasets/nlbse23-issue-classification-test.csv.tar.gz)
+- Write a paper (4 pages) describing:
   - The architecture and details of the classifier
   - The procedure used to pre-process the data
   - The procedure used to tune the classifier on the training set
   - The results of your classifier on the test set
   - Additional info: provide a link to your code/tool with proper documentation on how to run it
-- Submit the paper by the deadline (see below). Email the paper to the tool competition organizers: Rafael Kallis (rk@rafaelkallis.com) and Maliheh Izadi (m.izadi@tudelft.nl)
+- Submit the paper by the deadline (see below). **Email the paper to the tool competition organizers:** Rafael Kallis (rk@rafaelkallis.com) and Maliheh Izadi (m.izadi@tudelft.nl)
 
 All submissions must conform to the [ICSE’23 formatting and submission instructions](https://conf.researchr.org/track/icse-2023/icse-2023-technical-track).
 
@@ -32,7 +32,9 @@ Papers do not need to be double-blinded.
 
 All dates are anywhere on earth (AoE).
 
-## Updates
+## Updates 
+
+Compared to the 2022 version of the competition, we have made the following changes:
 
 - Dataset size increased from 800k to 1.2M issue reports
 - Added a new label `documentation` to the dataset
@@ -43,7 +45,7 @@ All dates are anywhere on earth (AoE).
 
 ## Submission acceptance and competition
 
-Submissions will be evaluated and accepted based on correctness and reproducibility, defined by the following criteria:
+Submissions will be evaluated and accepted based on **correctness** and **reproducibility**, defined by the following criteria:
 
 - Clarity and detail of the paper content
 - Availability of the code/tool, including the training/tuning/evaluation pipeline, released as open-source
@@ -86,13 +88,11 @@ Since you will be using our dataset (and possibly one of our notebooks) as well 
 }
 ```
 
-## Training
+## Dataset
 
-You are provided a [training set](https://tickettagger.blob.core.windows.net/datasets/nlbse23-issue-classification-train.csv.tar.gz) encompassing more than 1.2 million labeled issue reports extracted from real open source projects.
+A dataset of 1.4 million publicly available issue reports is extracted. 
 
-Participants are free to select and transform variables from the training set as they please. Pretrained models are permitted but can only be finetuned on the given training set. Any inputs or features used to create or finetune the classifier, must be derived from the provided training set. Participants may preprocess, sample, apply over/under-sampling, select a subset of the attributes, perform feature-engineering, filter records, split the training set into a model-finetuning validation set, etc. Please contact us if you have any question about this.
-
-Each issue report is labeled with one of the following labels:
+Each issue report contains the following information:
 - Label
 - Id
 - Title
@@ -101,9 +101,19 @@ Each issue report is labeled with one of the following labels:
 
 Each issue is labeled with one class that indicates the issue type, namely, `bug`, `feature`, `question` and `documentation`.
 
-Each issue appears exactly once and has exactly one label.
+Issues that are labelled with synonyms of the above labels, as reported by [Izadi et al.](https://arxiv.org/pdf/2012.10951.pdf), are mapped to the original labels and included in the dataset.
+
+Issues with multiple labels are excluded from the dataset.
 
 The dataset only contains issues written in English.
+
+The dataset is then split into a training set (90%) and a test set (10%).
+
+## Training
+
+You are provided a [training set](https://tickettagger.blob.core.windows.net/datasets/nlbse23-issue-classification-train.csv.tar.gz) encompassing more than 1.2 million labeled issue reports extracted from real open source projects.
+
+Participants are free to select and transform variables from the training set as they please. Pretrained models are permitted but can only be finetuned on the given training set. Any inputs or features used to create or finetune the classifier, must be derived from the provided training set. Participants may preprocess, sample, apply over/under-sampling, select a subset of the attributes, perform feature-engineering, filter records, split the training set into a model-finetuning validation set, etc. Please contact us if you have any question about this.
 
 The distribution of (1,275,881) issues in the training set is:
 - bug:            670,951 (52.6%)
