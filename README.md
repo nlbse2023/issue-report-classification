@@ -26,9 +26,10 @@ Papers do not need to be double-blinded.
 
 ## Important Dates
   
-- Paper/tool submission: TBA 2023
-- Acceptance and competition results notification: TBA 2023
-- Camera-ready paper submission: TBA 2023
+- Paper/tool submission: February 21, 2023
+- Acceptance and competition results notification: March 4, 2023
+- Camera-ready paper submission: March 17, 2023
+- Presentation: May TBA, 2023
 
 All dates are anywhere on earth (AoE).
 
@@ -36,7 +37,7 @@ All dates are anywhere on earth (AoE).
 
 Compared to the 2022 version of the competition, we have made the following changes:
 
-- Dataset size increased from 800k to 1.2M issue reports
+- Dataset size increased from 800k to 1.4M issue reports
 - Added a new label `documentation` to the dataset
 - Added synonyms of labels to the dataset
 - Multi-label issues are now excluded from the dataset
@@ -55,7 +56,7 @@ Submissions will be evaluated and accepted based on **correctness** and **reprod
 
 The accepted submissions will be published at the workshop proceedings.
 
-The submissions will be ranked based on the F1 score (defined below) achieved by the proposed classifiers on the test set, as indicated in the papers.
+The submissions will be ranked based on the F1 score (micro-averaged) achieved by the proposed classifiers on the test set, as indicated in the papers.
 
 The submission with the highest F1 score will be the winner of the competition.
 
@@ -90,7 +91,7 @@ Since you will be using our dataset (and possibly one of our notebooks) as well 
 
 ## Dataset
 
-A dataset of 1.4 million publicly available issue reports is extracted. 
+A dataset of 1.4 million publicly available issue reports is extracted.
 
 Each issue report contains the following information:
 - Label
@@ -101,13 +102,15 @@ Each issue report contains the following information:
 
 Each issue is labeled with one class that indicates the issue type, namely, `bug`, `feature`, `question` and `documentation`.
 
-Issues that are labelled with synonyms of the above labels, as reported by [Izadi et al.](https://arxiv.org/pdf/2012.10951.pdf), are mapped to the original labels and included in the dataset.
+Issues that are labelled with synonyms of the above labels, as reported by [Izadi et al.](https://doi.org/10.1007/s10664-021-10085-3), are mapped to the original labels and included in the dataset.
 
 Issues with multiple labels are excluded from the dataset.
 
 The dataset only contains issues written in English.
 
 The dataset is then split into a training set (90%) and a test set (10%).
+
+The process of extracting the dataset is described in the [dataset notebook](1-Dataset.ipynb).
 
 ## Training
 
