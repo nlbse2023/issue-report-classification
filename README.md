@@ -31,7 +31,6 @@ Papers do not need to be double-blinded.
 - Paper/tool submission: February 21, 2023
 - Acceptance and competition results notification: March 4, 2023
 - Camera-ready paper submission: March 17, 2023
-- Presentation: May TBA, 2023
 
 All dates are anywhere on earth (AoE).
 
@@ -150,9 +149,18 @@ Micro-averaging was chosen as the cross-class aggregation method in this tool co
 
 Please note that whilst all of the above measures must be provided for acceptance, the submissions will **only** be ranked by their F1 score.
 
-## Templates
+## Baselines
 
-Participants are encouraged, but not required, to use one of our templates for their submission. Each template downloads the dataset, performs basic preprocessing, trains a classifier and evaluates it on the test set.
+Participants are encouraged, but not required, to use one of our baselines as template for their submission. Each template downloads the dataset, performs basic preprocessing, trains a classifier and evaluates it on the test set.
 
-- [fastText](2-Template-fastText.ipynb)
+- [FastText](2-Template-fastText.ipynb)
 - [RoBERTa](3-Template-RoBERTa.ipynb)
+
+| | FastText | | | RoBERTa | | |
+|-| -------- |-|-| ------- |-|-|
+| Label         | Precision | Recall | F1     | Precision | Recall | F1   |
+| bug           | 0.8771    | 0.9173 | 0.8967 | 0         | 0      | 0    |
+| feature       | 0.8415    | 0.8621 | 0.8517 | 0         | 0      | 0    |
+| question      | 0.6702    | 0.4555 | 0.5424 | 0         | 0      | 0    |
+| documentation | 0.7363    | 0.5011 | 0.5964 | 0         | 0      | 0    |
+| micro average | 0.8510    | 0.8510 | **0.8510** | 0     | 0      | **0.89** |
