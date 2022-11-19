@@ -1,6 +1,6 @@
 ![nlbse 2023](nlbse2023.png)
 
-# NLBSE'23 Tool Competition on Issue Classification
+# NLBSE'23 Tool Competition on Issue Report Classification
 
 ## Introduction
 
@@ -20,7 +20,7 @@ If you want to participate, you must:
   - The procedure used to tune the classifier on the training set
   - The results of your classifier on the test set
   - Additional info: provide a link to your code/tool with proper documentation on how to run it
-- Submit the paper by the deadline (see below) on our [submission form]()
+- Submit the paper by the deadline (see below) on our submission form.
 
 > The submission form will be published soon.
 
@@ -67,12 +67,10 @@ The submission with the highest F1 score will be the winner of the competition.
 
 Since you will be using our dataset (and possibly one of our notebooks) as well as the original work behind the dataset, please cite the following references in your paper:
 
-> TODO
-
 ```
 @inproceedings{nlbse2023issues,
   author={Kallis, Rafael and Izadi, Maliheh and Di Sorbo, Andrea and Panichella, Sebastiano},
-  title={NLBSE'23 Tool Competition on Issue Classification},
+  title={NLBSE'23 Tool Competition on Issue Report Classification},
   booktitle={Proceedings of The 2nd International Workshop on Natural Language-based Software Engineering (NLBSE'23)},
   year={2023}
 }
