@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-title: NLBSE'23 Tool Competition
+title: NLBSE'23 Tool Competition on Issue Classification
 message: >-
   If you use this dataset, please cite it using 
   the metadata from this file.
@@ -15,3 +15,13 @@ authors:
     email: m.izadi@tudelft.nl
     orcid: 'https://orcid.org/0000-0001-5093-5523'
     affiliation: Delft University of Technology
+  - given-names: Andrea
+    family-names: Di Sorbo
+    email: disorbo@unisannio.it
+    orcid: 'https://orcid.org/0000-0002-3192-739X'
+    affiliation: University of Sannio
+  - given-names: Sebastiano
+    family-names: Panichella
+    email: panc@zhaw.ch
+    orcid: 'https://orcid.org/0000-0003-4120-626X'
+    affiliation: Zurich University of Applied Sciences

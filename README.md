@@ -68,9 +68,9 @@ Since you will be using our dataset (and possibly one of our notebooks) as well 
 > TODO
 
 ```
-@inproceedings{nlbse2023,
-  author={},
-  title={NLBSE'23 Tool Competition},
+@inproceedings{nlbse2023issues,
+  author={Kallis, Rafael and Izadi, Maliheh and Di Sorbo, Andrea and Panichella, Sebastiano},
+  title={NLBSE'23 Tool Competition on Issue Classification},
   booktitle={Proceedings of The 2nd International Workshop on Natural Language-based Software Engineering (NLBSE'23)},
   year={2023}
 }
@@ -78,7 +78,7 @@ Since you will be using our dataset (and possibly one of our notebooks) as well 
 
 ```
 @article{ticket-tagger-scp,
-  author={Rafael Kallis and Andrea {Di Sorbo} and Gerardo Canfora and Sebastiano Panichella}
+  author={Kallis, Rafael and Di Sorbo, Andrea and Canfora, Gerardo and Panichella, Sebastiano},
   title={Predicting issue types on GitHub},
   journal={Science of Computer Programming},
   volume={205},
