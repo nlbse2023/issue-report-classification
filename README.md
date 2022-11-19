@@ -14,13 +14,15 @@ If you want to participate, you must:
 
 - Train and tune a multiclass classifier using the provided [training set](https://tickettagger.blob.core.windows.net/datasets/nlbse23-issue-classification-train.csv.tar.gz). The classifier should assign one label to an issue.
 - Evaluate your classifier on the provided [test set](https://tickettagger.blob.core.windows.net/datasets/nlbse23-issue-classification-test.csv.tar.gz)
-- Write a paper (4 pages) describing:
+- Write a short paper (2-4 pages) describing:
   - The architecture and details of the classifier
   - The procedure used to pre-process the data
   - The procedure used to tune the classifier on the training set
   - The results of your classifier on the test set
   - Additional info: provide a link to your code/tool with proper documentation on how to run it
-- Submit the paper by the deadline (see below). **Email the paper to the tool competition organizers:** Rafael Kallis (rk@rafaelkallis.com) and Maliheh Izadi (m.izadi@tudelft.nl)
+- Submit the paper by the deadline (see below) on our [submission form]()
+
+> The submission form will be published soon.
 
 All submissions must conform to the [ICSE’23 formatting and submission instructions](https://conf.researchr.org/track/icse-2023/icse-2023-technical-track).
 
@@ -155,6 +157,8 @@ Participants are encouraged, but not required, to use one of our baselines as te
 
 - [FastText](2-Template-fastText.ipynb)
 - [RoBERTa](3-Template-RoBERTa.ipynb)
+
+> RoBERTa scores will be updated soon.
 
 | | FastText | | | RoBERTa | | |
 |-| -------- |-|-| ------- |-|-|
