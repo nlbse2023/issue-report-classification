@@ -17,9 +17,9 @@ You must train, tune and evaluate your multi-class classification model(s) using
 Since you will be using our dataset (and possibly one of our notebooks) as well as the original work behind the dataset, please cite the following references in your paper:
 
 ```
-@inproceedings{nlbse2023issues,
-  author={Kallis, Rafael and Izadi, Maliheh and Di Sorbo, Andrea and Panichella, Sebastiano},
-  title={NLBSE'23 Tool Competition on Issue Report Classification},
+@inproceedings{nlbse2023,
+  author={Kallis, Rafael and Izadi, Maliheh and Pascarella, Luca and Chaparro, Oscar and Rani, Pooja},
+  title={The NLBSE'23 Tool Competition},
   booktitle={Proceedings of The 2nd International Workshop on Natural Language-based Software Engineering (NLBSE'23)},
   year={2023}
 }
