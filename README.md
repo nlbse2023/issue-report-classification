@@ -4,9 +4,13 @@
 
 ## Introduction
 
-The issue report classification competition consists of building and testing a multi-class classification model to classify issue report documents as belonging to one category representing the type of information that a issue report is conveying.
+The issue report classification competition consists of building and testing a multi-class classification model 
+to classify issue reports as belonging to one category representing the type of information they convey.
 
-We provide a dataset encompassing more than 1.4 million labeled issue reports (as bugs, enhancements, questions and documentation) extracted from real open-source projects. You are invited to leverage this dataset for evaluating your classification approaches and compare the achieved results against proposed baseline approaches based on FastText and RoBERTa.
+We provide a dataset encompassing more than 1.4 million labeled issue reports 
+(as bugs, enhancements, questions, and documentation) 
+extracted from real open-source projects. 
+You are invited to leverage this dataset for evaluating your classification approaches and compare the achieved results against proposed baseline approaches based on FastText and RoBERTa.
 
 You must train, tune and evaluate your multi-class classification model(s) using the provided training and test sets.
 
@@ -41,7 +45,7 @@ Since you will be using our dataset (and possibly one of our notebooks) as well 
 
 ## Dataset
 
-A dataset of 1.4 million publicly available issue reports is extracted.
+A dataset of 1.4 million publicly-available issue reports is extracted.
 
 Each issue report contains the following information:
 - Label
