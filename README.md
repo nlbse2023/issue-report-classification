@@ -4,66 +4,15 @@
 
 ## Introduction
 
-This NLBSE tool competition is on automatic issue report classification, an important task in issue management and prioritization.
+The issue report classification competition consists of building and testing a multi-class classification model to classify issue report documents as belonging to one category representing the type of information that a issue report is conveying.
 
-For the competition, we provide a dataset encompassing more than 1.4M labeled issue reports (as bugs, features, questions and documentation) extracted from real open-source projects. You are invited to leverage this dataset for evaluating your classification approaches and compare the achieved results against a two proposed baseline approaches based on FastText and RoBERTa.
+We provide a dataset encompassing more than 1.4 million labeled issue reports (as bugs, enhancements, questions and documentation) extracted from real open-source projects. You are invited to leverage this dataset for evaluating your classification approaches and compare the achieved results against proposed baseline approaches based on FastText and RoBERTa.
 
-## Participation
+You must train, tune and evaluate your multi-class classification model(s) using the provided training and test sets.
 
-If you want to participate, you must:
+> Please refer to our [tool competition page](https://nlbse2023.github.io/tools/) to read more about the tool competition and learn how to participate.
 
-- Train and tune a multiclass classifier using the provided [training set](https://tickettagger.blob.core.windows.net/datasets/nlbse23-issue-classification-train.csv.tar.gz). The classifier should assign one label to an issue.
-- Evaluate your classifier on the provided [test set](https://tickettagger.blob.core.windows.net/datasets/nlbse23-issue-classification-test.csv.tar.gz)
-- Write a short paper (2-4 pages) describing:
-  - The architecture and details of the classifier
-  - The procedure used to pre-process the data
-  - The procedure used to tune the classifier on the training set
-  - The results of your classifier on the test set
-  - Additional info: provide a link to your code/tool with proper documentation on how to run it
-- Submit the paper by the deadline (see below) on our submission form.
-
-> The submission form will be published soon.
-
-All submissions must conform to the [ICSE’23 formatting and submission instructions](https://conf.researchr.org/track/icse-2023/icse-2023-technical-track).
-
-Papers do not need to be double-blinded.
-
-## Important Dates
-  
-- Paper/tool submission: February 21, 2023
-- Acceptance and competition results notification: March 4, 2023
-- Camera-ready paper submission: March 17, 2023
-
-All dates are anywhere on earth (AoE).
-
-## Updates 
-
-Compared to the 2022 version of the competition, we have made the following changes:
-
-- Dataset size increased from 800k to 1.4M issue reports
-- Added a new label `documentation` to the dataset
-- Added synonyms of labels to the dataset
-- Multi-label issues are now excluded from the dataset
-- Non-english issues are now excluded from the dataset
-- Added RoBERTa baseline
-
-## Submission acceptance and competition
-
-Submissions will be evaluated and accepted based on **correctness** and **reproducibility**, defined by the following criteria:
-
-- Clarity and detail of the paper content
-- Availability of the code/tool, including the training/tuning/evaluation pipeline, released as open-source
-- Correct training/tuning/evaluation of your code/tool on the provided data
-- Report the metrics and results we outline below
-- Clarity of the code documentation
-
-The accepted submissions will be published at the workshop proceedings.
-
-The submissions will be ranked based on the F1 score (micro-averaged) achieved by the proposed classifiers on the test set, as indicated in the papers.
-
-The submission with the highest F1 score will be the winner of the competition.
-
-## Referencing
+## Citing related work
 
 Since you will be using our dataset (and possibly one of our notebooks) as well as the original work behind the dataset, please cite the following references in your paper:
 
