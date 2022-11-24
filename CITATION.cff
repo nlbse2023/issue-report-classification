@@ -1,32 +1,47 @@
 cff-version: 1.2.0
-title: NLBSE'23 Tool Competition on Issue Report Classification
-message: >-
-  If you use this dataset, please cite it using 
-  the metadata from this file.
+title: The NLBSE'23 Tool Competition on Issue Report Classification
+message: Please cite this dataset using the metadata from 'preferred-citation'.
 type: dataset
 authors:
   - given-names: Rafael
     family-names: Kallis
     email: rk@rafaelkallis.com
     affiliation: Rafael Kallis Consulting
-    orcid: 'https://orcid.org/0000-0001-5402-9114'
+    orcid: https://orcid.org/0000-0001-5402-9114
   - given-names: Maliheh
     family-names: Izadi
     email: m.izadi@tudelft.nl
     orcid: 'https://orcid.org/0000-0001-5093-5523'
     affiliation: Technical University of Delft
-  - given-names: Luca
-    family-names: Pascarella
-    email: 
-    orcid: 
-    affiliation: 
-  - given-names: Oscar
-    family-names: Chaparro
-    email: 
-    orcid: 
-    affiliation: 
-  - given-names: Pooja
-    family-names: Rani
-    email: 
-    orcid: 
-    affiliation: 
+preferred-citation:
+  type: conference-paper
+  title: The NLBSE'23 Tool Competition
+  collection-title: Proceedings of The 2nd International Workshop on Natural Language-based Software Engineering (NLBSE'23)
+  collection-type: proceedings
+  year: 2023
+  authors:
+    - given-names: Rafael
+      family-names: Kallis
+      email: rk@rafaelkallis.com
+      affiliation: Rafael Kallis Consulting
+      orcid: https://orcid.org/0000-0001-5402-9114
+    - given-names: Maliheh
+      family-names: Izadi
+      email: m.izadi@tudelft.nl
+      orcid: 'https://orcid.org/0000-0001-5093-5523'
+      affiliation: Technical University of Delft
+    - given-names: Luca
+      family-names: Pascarella
+      email: lpascarella@ethz.ch
+      orcid: https://orcid.org/0000-0001-8289-7736
+      affiliation: ETH Zurich
+    - given-names: Oscar
+      family-names: Chaparro
+      email: oscarch@wm.edu 
+      orcid: https://orcid.org/0000-0003-2838-685X
+      affiliation: College of William and Mary
+    - given-names: Pooja
+      family-names: Rani
+      email: rani@ifi.uzh.ch
+      orcid: https://orcid.org/0000-0001-5127-4042
+      affiliation: University of Zurich
