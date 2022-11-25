@@ -91,7 +91,7 @@ The distribution of (142,320) issues in the test set:
 
 The evaluation must be performed on the entire test set only. **Important:** you may apply any preprocessing or feature engineering on this dataset except sampling, rebalancing, undersampling or oversampling techniques.
 
-Classification performance is measured using the F1 score over all the three classes (micro-averaged). 
+Classification performance is measured using the F1 score over all the four classes (micro-averaged). 
 
 A submission (i.e., paper) in the tool competition must provide:
 - Precision, for each class and the micro average
