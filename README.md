@@ -106,16 +106,27 @@ Please note that whilst all of the above measures must be provided for acceptanc
 
 Participants are encouraged, but not required, to use one of our baselines as template for their submission. Each template downloads the dataset, performs basic preprocessing, trains a classifier and evaluates it on the test set.
 
-- [FastText](2-Template-fastText.ipynb)
-- [RoBERTa](3-Template-RoBERTa.ipynb)
+### [FastText](2-Template-fastText.ipynb)
 
-> RoBERTa scores will be updated soon.
+> Hyperparameters will be published soon.
 
-| | FastText | | | RoBERTa | | |
-|-| -------- |-|-| ------- |-|-|
-| Label         | Precision | Recall | F1     | Precision | Recall | F1   |
-| bug           | 0.8771    | 0.9173 | 0.8967 | 0         | 0      | 0    |
-| feature       | 0.8415    | 0.8621 | 0.8517 | 0         | 0      | 0    |
-| question      | 0.6702    | 0.4555 | 0.5424 | 0         | 0      | 0    |
-| documentation | 0.7363    | 0.5011 | 0.5964 | 0         | 0      | 0    |
-| micro average | 0.8510    | 0.8510 | **0.8510** | 0     | 0      | **0.89** |
+| Label         | Precision | Recall | F1         |
+| ------------- | --------- | ------ | ---------- |
+| bug           | 0.8771    | 0.9173 | 0.8967     |
+| feature       | 0.8415    | 0.8621 | 0.8517     |
+| question      | 0.6702    | 0.4555 | 0.5424     |
+| documentation | 0.7363    | 0.5011 | 0.5964     |
+| micro average | 0.8510    | 0.8510 | **0.8510** |
+
+### [RoBERTa](3-Template-RoBERTa.ipynb)
+
+> Hyperparameters will be published soon.
+
+| Label         | Precision | Recall | F1         |
+| ------------- | --------- | ------ | ---------- |
+| bug           | 0.9110    | 0.9390 | 0.9248     |
+| feature       | 0.8950    | 0.8967 | 0.8958     |
+| question      | 0.7309    | 0.5684 | 0.6395     |
+| documentation | 0.7594    | 0.6975 | 0.7271     |
+| micro average | 0.8906    | 0.8906 | **0.8906** |
+
