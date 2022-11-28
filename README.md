@@ -20,7 +20,7 @@ You must train, tune and evaluate your multi-class classification model(s) using
 
 Since you will be using our dataset (and possibly one of our notebooks) as well as the original work behind the dataset, please cite the following references in your paper:
 
-```
+```bibtex
 @inproceedings{nlbse2023,
   author={Kallis, Rafael and Izadi, Maliheh and Pascarella, Luca and Chaparro, Oscar and Rani, Pooja},
   title={The NLBSE'23 Tool Competition},
@@ -29,7 +29,7 @@ Since you will be using our dataset (and possibly one of our notebooks) as well 
 }
 ```
 
-```
+```bibtex
 @article{ticket-tagger-scp,
   author={Kallis, Rafael and Di Sorbo, Andrea and Canfora, Gerardo and Panichella, Sebastiano},
   title={Predicting issue types on GitHub},
@@ -65,6 +65,8 @@ The dataset only contains issues written in English.
 The dataset is then split into a training set (90%) and a test set (10%).
 
 The process of extracting the dataset is described in the [dataset notebook](1-Dataset.ipynb).
+
+> The dataset has already been extracted to avoid costs on your end, please keep reading to find hyperlinks to both the training and test set.
 
 ## Training
 
