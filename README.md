@@ -110,8 +110,6 @@ Participants are encouraged, but not required, to use one of our baselines as te
 
 ### [FastText](2-Template-fastText.ipynb)
 
-> Hyperparameters will be published soon.
-
 | Label         | Precision | Recall | F1         |
 | ------------- | --------- | ------ | ---------- |
 | bug           | 0.8771    | 0.9173 | 0.8967     |
@@ -120,9 +118,9 @@ Participants are encouraged, but not required, to use one of our baselines as te
 | documentation | 0.7363    | 0.5011 | 0.5964     |
 | micro average | 0.8510    | 0.8510 | **0.8510** |
 
-### [RoBERTa](3-Template-RoBERTa.ipynb)
+Default hyperparameters were used. You can find the full list of hyperparameters [here](https://fasttext.cc/docs/en/python-module.html#train_supervised-parameters).
 
-> Hyperparameters will be published soon.
+### [RoBERTa](3-Template-RoBERTa.ipynb)
 
 | Label         | Precision | Recall | F1         |
 | ------------- | --------- | ------ | ---------- |
@@ -132,3 +130,13 @@ Participants are encouraged, but not required, to use one of our baselines as te
 | documentation | 0.7594    | 0.6975 | 0.7271     |
 | micro average | 0.8906    | 0.8906 | **0.8906** |
 
+| Hyperparameter | Value |
+| -------------- | ----- |
+| Max tokens     | 224   |
+| Learning Rate  | 1e-5  |
+| Batch size     | 64    |
+| Epochs         | 5     |
+
+Additional hypermeters have been not been changed from their default values. You can find the full list of hyperparameters [here](https://simpletransformers.ai/docs/usage/#configuring-a-simple-transformers-model).
+
+> Note: the authors have used an RTX 3060 GPU to train the model.
