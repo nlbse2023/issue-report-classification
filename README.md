@@ -139,4 +139,4 @@ Default hyperparameters were used. You can find the full list of hyperparameters
 
 Additional hypermeters have been not been changed from their default values. You can find the full list of hyperparameters [here](https://simpletransformers.ai/docs/usage/#configuring-a-simple-transformers-model).
 
-> Note: the authors have used an RTX 3060 GPU to train the model.
+> Note: the authors have used a RTX 3060 GPU to train the model.
