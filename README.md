@@ -30,7 +30,7 @@ Since you will be using our dataset (and possibly one of our notebooks) as well 
 ```
 
 ```bibtex
-@article{ticket-tagger-scp,
+@article{kallis2020tickettagger,
   author={Kallis, Rafael and Di Sorbo, Andrea and Canfora, Gerardo and Panichella, Sebastiano},
   title={Predicting issue types on GitHub},
   journal={Science of Computer Programming},
@@ -44,8 +44,21 @@ Since you will be using our dataset (and possibly one of our notebooks) as well 
 ```
 
 ```bibtex
+@inproceedings{kallis2019tickettagger,
+  author    = {Kallis, Rafael and Di Sorbo, Andrea and Canfora, Gerardo and Panichella, Sebastiano},
+  title     = {Ticket Tagger: Machine Learning Driven Issue Classification},
+  booktitle = {2019 {IEEE} International Conference on Software Maintenance and Evolution,
+               {ICSME} 2019, Cleveland, OH, USA, September 29 - October 4, 2019},
+  pages     = {406--409},
+  publisher = { {IEEE} },
+  year      = {2019},
+  doi       = {10.1109/ICSME.2019.00070},
+}
+```
+
+```bibtex
 @inproceedings{izadi2022catiss,
-author = {M. Izadi},
+author = {Izadi, Maliheh},
 booktitle = {2022 IEEE/ACM 1st International Workshop on Natural Language-Based Software Engineering (NLBSE)},
 title = {CatIss: An Intelligent Tool for Categorizing Issues Reports using Transformers},
 year = {2022},
