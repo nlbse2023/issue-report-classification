@@ -58,14 +58,14 @@ Since you will be using our dataset (and possibly one of our notebooks) as well 
 
 ```bibtex
 @inproceedings{izadi2022catiss,
-author = {Izadi, Maliheh},
-booktitle = {2022 IEEE/ACM 1st International Workshop on Natural Language-Based Software Engineering (NLBSE)},
-title = {CatIss: An Intelligent Tool for Categorizing Issues Reports using Transformers},
-year = {2022},
-pages = {44-47},
-doi = {10.1145/3528588.3528662},
-url = {https://doi.ieeecomputersociety.org/10.1145/3528588.3528662},
-publisher = {IEEE Computer Society}
+  author = {Izadi, Maliheh},
+  booktitle = {2022 IEEE/ACM 1st International Workshop on Natural Language-Based Software Engineering (NLBSE)},
+  title = {CatIss: An Intelligent Tool for Categorizing Issues Reports using Transformers},
+  year = {2022},
+  pages = {44-47},
+  doi = {10.1145/3528588.3528662},
+  url = {https://doi.ieeecomputersociety.org/10.1145/3528588.3528662},
+  publisher = {IEEE Computer Society}
 }
 ```
 
